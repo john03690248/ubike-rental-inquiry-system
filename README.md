@@ -23,22 +23,22 @@ This is a web-based system that displays YouBike station information in New Taip
    ```
 
 2. **Move the project to XAMPP directory**
-   Place the `ubike-rental-inquiry-system` folder into the `htdocs` directory of XAMPP:
+   ：Place the `ubike-rental-inquiry-system` folder into the `htdocs` directory of XAMPP:
    ```sh
    mv ubike-rental-inquiry-system /xampp/htdocs/
    ```
 
 3. **Set up Google Maps API Key**
-   Open `index.html`, find the following line, and replace `YOUR_GOOGLE_MAPS_API_KEY` with your actual API key:
+   ：Open `index.html`, find the following line, and replace `YOUR_GOOGLE_MAPS_API_KEY` with your actual API key:
    ```html
    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap"></script>
    ```
 
 4. **Start XAMPP**
-   Open the XAMPP control panel and start the Apache server.
+   ：Open the XAMPP control panel and start the Apache server.
 
 5. **Access the website**
-   Open your browser and go to:
+   ：Open your browser and go to:
    ```
    http://localhost/ubike-rental-inquiry-system/index.html
    ```
